@@ -62,7 +62,35 @@
     
     
     #header-img{
-        height: 270px;
+        height: 300px;
+    }
+
+    #header-content{
+        margin-top: 40px;
+    }
+
+    #logo{
+        width: 35px;
+    }
+    
+    #title{
+        margin-top: 7px;
+        font-size: 23px;
+    }
+    
+    #title1{
+        margin-top: 7px;
+        font-size: 23px;
+    }
+
+    #paragraph{
+        font-size: 6px;
+    }
+    
+    #mouse-click{
+        position: absolute;
+        width: 9px;
+        margin-top: 280px;
     }
  }
 
@@ -74,7 +102,35 @@
     
     
     #header-img{
-        height: 370px;
+        height: 400px;
+    }
+
+    #header-content{
+        margin-top: 50px;
+    }
+
+    #logo{
+        width: 42px;
+    }
+    
+    #title{
+        margin-top: 10px;
+        font-size: 28px;
+    }
+    
+    #title1{
+        margin-top: 10px;
+        font-size: 28px;
+    }
+
+    #paragraph{
+        font-size: 8px;
+    }
+    
+    #mouse-click{
+        position: absolute;
+        width: 11px;
+        margin-top: 360px;
     }
  }
 
@@ -86,8 +142,37 @@
     
     
     #header-img{
-        height: 470px;
+        height: 490px;
     }
+
+    #header-content{
+        margin-top: 50px;
+    }
+
+    #logo{
+        width: 55px;
+    }
+    
+    #title{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    
+    #title1{
+        margin-top: 15px;
+        font-size: 30px;
+    }
+
+    #paragraph{
+        font-size: 9px;
+    }
+    
+    #mouse-click{
+        position: absolute;
+        width: 13px;
+        margin-top: 510px;
+    }
+
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -96,9 +181,32 @@
         height: 600px;
     }
     
-    
     #header-img{
         height: 600px;
+    }
+
+    #header-content{
+        margin-top: 100px;
+    }
+
+    #logo{
+        width: 60px;
+    }
+    
+    #title{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    
+    #title1{
+        margin-top: 15px;
+        font-size: 35px;
+    }
+    
+    #mouse-click{
+        position: absolute;
+        width: 15px;
+        margin-top: 600px;
     }
  }
 
