@@ -55,7 +55,6 @@
 
 .about-p{
     text-align: center;
-    
 }
 
 
@@ -104,6 +103,15 @@
         width: 9px;
         margin-top: 280px;
     }
+
+    #about-h{
+        font-size: 17px;
+    }
+    
+    .about-p{
+        text-align: center;
+        font-size: 7px;
+    }
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -144,6 +152,15 @@
         width: 11px;
         margin-top: 360px;
     }
+
+    #about-h{
+        font-size: 20px;
+    }
+    
+    .about-p{
+        text-align: center;
+        font-size: 8px;
+    }
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -183,8 +200,17 @@
         position: absolute;
         width: 13px;
         margin-top: 510px;
-    }
+    } 
 
+    #about-h{
+        font-size: 24px;
+    }
+    
+    .about-p{
+        text-align: center;
+        font-size: 11px;
+    }
+    
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -220,6 +246,16 @@
         width: 15px;
         margin-top: 600px;
     }
+
+    #about-h{
+        font-size: 27px;
+    }
+    
+    .about-p{
+        text-align: center;
+        font-size: 14px;
+    }
+    
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
