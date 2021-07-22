@@ -77,7 +77,20 @@
     text-align: center;
 }
 
+#what{
+    text-align: center;
+    font-size: 30px;
+}
 
+.s-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-tags{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
@@ -140,6 +153,20 @@
         margin-top: 20px;
         font-size: 8px;
     }
+
+    #what{
+        margin-top: 11px;
+        font-size: 17px;
+    }
+
+
+    .s-icons{
+        margin-top: 15px;
+    }
+
+    .s-icon{
+        width: 35px;
+    }
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -197,6 +224,19 @@
     .ourServices{
         margin-top: 30px;
         font-size: 9px;
+    }
+
+    #what{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .s-icons{
+        margin-top: 20px;
+    }
+
+    .s-icon{
+        width: 45px;
     }
     
  }
@@ -264,6 +304,19 @@
         margin-top: 50px;
         font-size: 12px;
     }
+
+    #what{
+        margin-top: 23px;
+        font-size: 24px;
+    }
+
+    .s-icons{
+        margin-top: 25px;
+    }
+
+    .s-icon{
+        width: 55px;
+    }
     
  }
 
@@ -322,7 +375,19 @@
         margin-top: 80px;
         font-size: 15px;
     }
+
+    #what{
+        margin-top: 30px;
+        font-size: 27px;
+    }
     
+    .s-icons{
+        margin-top: 30px;
+    }
+
+    .s-icon{
+        width: 65px;
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -340,6 +405,29 @@
 
     .ourServices{
         margin-top: 80px;
+    }
+
+    #what{
+        margin-top: 35px;
+    }
+
+    .s-icons{
+        margin-top: 35px;
+    }
+
+    #design{
+        margin-left: 105px;
+        font-size: 24px;
+    }
+
+    #development{
+        margin-left: 172px;
+        font-size: 24px;
+    }
+
+    #p-mgt{
+        margin-left: 60px;
+        font-size: 24px
     }
     
  }
