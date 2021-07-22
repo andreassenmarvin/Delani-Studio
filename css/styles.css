@@ -82,18 +82,68 @@
     font-size: 30px;
 }
 
-.s-icons{
+.s-d-icons{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
 }
 
-.icon-tags{
-    display: flex;
-    justify-content: space-around;
+.design{
+    width: 400px;
 }
 
+.dev{
+    width: 400px;
+}
 
+.p-mgt{
+    width: 400px;
+}
 
+.design-icon{
+    text-align: center;
+}
+
+.dev-icon{
+    text-align: center;
+}
+
+.p-mgt-icon{
+    text-align: center;
+}
+
+.design-p{
+    position: absolute;
+    width: 400px;
+    font-size: 14px;
+    margin-top: -100px;
+    display: none;
+}
+
+.dev-p{
+    position: absolute;
+    width: 400px;
+    font-size: 14px;
+    margin-top: -90px;
+    display: none;
+}
+
+.p-mgt-p{
+    width: 400px;
+    font-size: 14px;
+    margin-top: -30px;
+    display: none;
+}
+
+.icon-tag{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.icon-tag1{
+    font-size: 16px;
+}
 
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -158,15 +208,6 @@
         margin-top: 11px;
         font-size: 17px;
     }
-
-
-    .s-icons{
-        margin-top: 15px;
-    }
-
-    .s-icon{
-        width: 35px;
-    }
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -229,14 +270,6 @@
     #what{
         margin-top: 15px;
         font-size: 20px;
-    }
-
-    .s-icons{
-        margin-top: 20px;
-    }
-
-    .s-icon{
-        width: 45px;
     }
     
  }
@@ -309,15 +342,6 @@
         margin-top: 23px;
         font-size: 24px;
     }
-
-    .s-icons{
-        margin-top: 25px;
-    }
-
-    .s-icon{
-        width: 55px;
-    }
-    
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -380,14 +404,6 @@
         margin-top: 30px;
         font-size: 27px;
     }
-    
-    .s-icons{
-        margin-top: 30px;
-    }
-
-    .s-icon{
-        width: 65px;
-    }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -410,24 +426,4 @@
     #what{
         margin-top: 35px;
     }
-
-    .s-icons{
-        margin-top: 35px;
-    }
-
-    #design{
-        margin-left: 105px;
-        font-size: 24px;
-    }
-
-    #development{
-        margin-left: 172px;
-        font-size: 24px;
-    }
-
-    #p-mgt{
-        margin-left: 60px;
-        font-size: 24px
-    }
-    
  }
