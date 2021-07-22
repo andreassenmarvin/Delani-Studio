@@ -132,7 +132,7 @@
 .p-mgt-p{
     width: 400px;
     font-size: 14px;
-    margin-top: -30px;
+    margin-top: -35px;
     display: none;
 }
 
@@ -208,6 +208,51 @@
         margin-top: 11px;
         font-size: 17px;
     }
+
+    .s-d-icons{
+        margin-top: 10px;
+    }
+    
+    .design-p{
+        width: 160px;
+        font-size: 6px;
+        margin-top: -40px;
+    }
+    
+    .dev-p{
+        width: 160px;
+        font-size: 6px;
+        margin-top: -40px;
+    }
+    
+    .p-mgt-p{
+        width: 160px;
+        font-size: 6px;
+        margin-top: -1px;
+    }
+    
+
+    .icon-tag1{
+        font-size: 10px;
+    }
+
+    .icon-tag{
+        font-size: 8px;
+        margin-left: 60px;
+    }
+
+    .design-img{
+        width: 50px;
+    }
+
+    .dev-img{
+        width: 50px;
+    }
+
+    .mgt-img{
+        width: 50px;
+    }
+
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -271,7 +316,50 @@
         margin-top: 15px;
         font-size: 20px;
     }
+    .s-d-icons{
+        margin-top: 10px;
+    }
     
+    .design-p{
+        width: 170px;
+        font-size: 8px;
+        margin-top: -50px;
+    }
+    
+    .dev-p{
+        width: 170px;
+        font-size: 8px;
+        margin-top: -50px;
+    }
+    
+    .p-mgt-p{
+        width: 170px;
+        font-size: 8px;
+        margin-top: -1px;
+    }
+    
+
+    .icon-tag1{
+        font-size: 10px;
+    }
+
+    .icon-tag{
+        font-size: 9px;
+        margin-left: 70px;
+    }
+
+    .design-img{
+        width: 55px;
+    }
+
+    .dev-img{
+        width: 55px;
+    }
+
+    .mgt-img{
+        width: 55px;
+    }
+
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -342,6 +430,53 @@
         margin-top: 23px;
         font-size: 24px;
     }
+
+    .s-d-icons{
+        margin-top: 30px;
+    }
+    
+    .design-p{
+        width: 250px;
+        font-size: 11px;
+        margin-top: -75px;
+    }
+    
+    .dev-p{
+        width: 250px;
+        font-size: 11px;
+        margin-top: -75px;
+    }
+    
+    .p-mgt-p{
+        width: 250px;
+        font-size: 11px;
+        margin-top: -20px;
+    }
+    
+    .design-icon{
+        text-align: center;
+    }
+
+    .icon-tag1{
+        font-size: 15px;
+    }
+
+    .design-img{
+        width: 60px;
+    }
+
+    .dev-img{
+        width: 60px;
+    }
+
+    .mgt-img{
+        width: 60px;
+    }
+
+    .icon-tag{
+        font-size: 14px;
+        margin-left: 90px;
+    }
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -404,6 +539,34 @@
         margin-top: 30px;
         font-size: 27px;
     }
+    
+    .s-d-icons{
+        margin-top: 30px;
+    }
+    
+    .design-p{
+        width: 300px;
+        font-size: 13px;
+    }
+    
+    .dev-p{
+        width: 300px;
+        font-size: 13px;
+    }
+    
+    .p-mgt-p{
+        width: 300px;
+        font-size: 13px;
+    }
+    
+    .design-icon{
+        text-align: center;
+    }
+
+    .icon-tag1{
+        font-size: 15px;
+    }
+    
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -424,6 +587,10 @@
     }
 
     #what{
+        margin-top: 35px;
+    }
+
+    .s-d-icons{
         margin-top: 35px;
     }
  }
