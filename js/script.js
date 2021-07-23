@@ -1,3 +1,4 @@
+// Toggle effect between icons and descriptions
 $(function(){
     $(".design-img").click(function(){
         $(".design-p").show();
@@ -28,6 +29,8 @@ $(function(){
         $(".mgt-img").toggle();
     })
 
+
+    // Form validate onsubmit
     $("form").submit(function(event){
 
         var inputText = document.getElementById("input-text").value;
@@ -73,6 +76,7 @@ $(function(){
             $("#message").removeClass("error");
             $(".message-error").hide();
             alert(`Hello ${inputText}!Your message has been sent`);
+            $(".form form").trigger("reset");
         }
 
 

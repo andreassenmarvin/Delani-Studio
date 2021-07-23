@@ -259,6 +259,7 @@ input::placeholder{
     display: block;
     margin: auto;
     transition: all ease .5s;
+    outline: none;
 }
 
 #button:hover{
