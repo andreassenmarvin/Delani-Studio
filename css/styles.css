@@ -185,11 +185,56 @@
 }
 
 .contactUs{
-    background-image: url("/assets/backgrounds/c_image.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 600px;
     margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-bg{
+    position: relative;
+}
+
+.contact-body{
+    position: absolute;
+    z-index: 3;
+    margin: 50px;
+}
+
+#contact-title{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+input::placeholder{
+    color: white;
+    padding: 10px;
+}
+    
+.text{
+    width: 450px;
+    margin: 25px;
+}
+
+#message{
+    width: 930px;
+    padding: 5px;
+    padding-bottom: 200px;
+    margin-left: 50px;
+
 }
 
 
