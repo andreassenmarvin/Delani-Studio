@@ -193,6 +193,7 @@
 
 .contact-bg{
     position: relative;
+    height: 550px;
 }
 
 .contact-body{
@@ -234,7 +235,25 @@ input::placeholder{
     padding: 5px;
     padding-bottom: 200px;
     margin-left: 50px;
+    margin-bottom: 30px;
+}
 
+#button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    width: 160px;
+    height: 55px;
+    display: block;
+    margin: auto;
+    transition: all ease .5s;
+}
+
+#button:hover{
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 6px;
 }
 
 
@@ -375,6 +394,46 @@ input::placeholder{
         margin-top: 9px;
     }
 
+
+    .contactUs{
+        margin-top: 30px;
+    }
+    
+    .contact-body{
+        margin: 6px;
+    }
+    
+    #contact-title{
+        font-size: 17px;
+    }
+
+    .contact-bg{
+        height: 265px;
+    }
+    
+    input::placeholder{
+        padding: 3px;
+    }
+        
+    .text{
+        width: 180px;
+        margin: 15px;
+    }
+    
+    #message{
+        width: 400px;
+        padding-bottom: 70px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    
+    #button{
+        width: 80px;
+        height: 33px;
+        font-size: 8px;
+    }
+
+
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -510,6 +569,44 @@ input::placeholder{
 
     .p-img2{
         margin-top: 9px;
+    }
+
+    .contactUs{
+        margin-top: 40px;
+    }
+    
+    .contact-body{
+        margin: 10px;
+    }
+    
+    #contact-title{
+        font-size: 20px;
+    }
+
+    .contact-bg{
+        height: 310px;
+    }
+    
+    input::placeholder{
+        padding: 5px;
+    }
+        
+    .text{
+        width: 230px;
+        margin: 15px;
+    }
+    
+    #message{
+        width: 500px;
+        padding-bottom: 100px;
+        margin-left: 15px;
+        margin-bottom: 25px;
+    }
+    
+    #button{
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
     }
 
  }
@@ -660,6 +757,45 @@ input::placeholder{
     .p-img2{
         margin-top: 13px;
     }
+
+    .contactUs{
+        margin-top: 50px;
+    }
+    
+    .contact-body{
+        margin: 25px;
+    }
+    
+    #contact-title{
+        font-size: 24px;
+    }
+
+    .contact-bg{
+        height: 390px;
+    }
+    
+    input::placeholder{
+        padding: 5px;
+    }
+        
+    .text{
+        width: 290px;
+        margin: 18px;
+    }
+    
+    #message{
+        width: 640px;
+        padding-bottom: 130px;
+        margin-left: 10px;
+        margin-bottom: 25px;
+    }
+    
+    #button{
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
+    }
+    
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -780,7 +916,44 @@ input::placeholder{
         margin-top: 17px;
     }
     
+    .contactUs{
+        margin-top: 60px;
+    }
     
+    .contact-bg{
+        height: 500px;
+    }
+    
+    .contact-body{
+        margin: 40px;
+    }
+    
+    #contact-title{
+        font-size: 27px;
+    }
+    
+    
+    input::placeholder{
+        padding: 8px;
+    }
+        
+    .text{
+        width: 400px;
+        margin: 23px;
+    }
+    
+    #message{
+        width: 835px;
+        padding-bottom: 200px;
+        margin-left: 40px;
+        margin-bottom: 25px;
+    }
+    
+    #button{
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
