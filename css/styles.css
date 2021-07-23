@@ -184,6 +184,14 @@
     text-shadow: 1px 0px 1px white;
 }
 
+.contactUs{
+    background-image: url("/assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin-top: 70px;
+}
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 
