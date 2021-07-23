@@ -164,10 +164,25 @@
     padding: 8px;
 }
 
-.portfolio-imgs{
-    
+
+.bailey-img{
+    position: relative;
+    filter: brightness(20%);
 }
 
+#bailey-div{
+    position: absolute;
+    color: white;
+    width: 210px;
+    height: 170px;
+    margin-left: -245px;
+    margin-top: 32px;
+    padding: 10px;
+    z-index: 3;
+    border: 3px solid white;
+    font-weight: bold;
+    text-shadow: 1px 0px 1px white;
+}
 
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -277,6 +292,36 @@
         width: 50px;
     }
 
+    .portfolio{
+        margin-top: 10px;
+    }
+    
+    #portfolio-h{
+        font-size: 17px;
+    }
+    
+    .p-img{
+        width: 100px;
+        padding: 2px;
+    }
+    
+    
+    #bailey-div{
+        width: 70px;
+        height: 63px;
+        margin-left: -85px;
+        margin-top: 10px;
+        padding: 7px;
+    }
+
+    #bailey-text{
+        font-size:9px;
+    }
+
+    .p-img2{
+        margin-top: 9px;
+    }
+
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -382,6 +427,36 @@
 
     .mgt-img{
         width: 55px;
+    }
+
+    .portfolio{
+        margin-top: 20px;
+    }
+    
+    #portfolio-h{
+        font-size: 20px;
+    }
+    
+    .p-img{
+        width: 130px;
+        padding: 4px;
+    }
+    
+    
+    #bailey-div{
+        width: 90px;
+        height: 80px;
+        margin-left: -111px;
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    #bailey-text{
+        font-size:12px;
+    }
+
+    .p-img2{
+        margin-top: 9px;
     }
 
  }
@@ -501,6 +576,37 @@
         font-size: 14px;
         margin-left: 90px;
     }
+
+
+    .portfolio{
+        margin-top: 35px;
+    }
+    
+    #portfolio-h{
+        font-size: 24px;
+    }
+    
+    .p-img{
+        width: 170px;
+        padding: 7px;
+    }
+    
+    
+    #bailey-div{
+        width: 120px;
+        height: 100px;
+        margin-left: -145px;
+        margin-top: 22px;
+        padding: 10px;
+    }
+
+    #bailey-text{
+        font-size:16px;
+    }
+
+    .p-img2{
+        margin-top: 13px;
+    }
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -590,6 +696,37 @@
     .icon-tag1{
         font-size: 15px;
     }
+
+    .portfolio{
+        margin-top: 60px;
+    }
+    
+    #portfolio-h{
+        font-size: 27px;
+    }
+    
+    .p-img{
+        width: 240px;
+        padding: 7px;
+    }
+    
+    
+    #bailey-div{
+        width: 190px;
+        height: 160px;
+        margin-left: -216px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    #bailey-text{
+        font-size: 22px;
+    }
+
+    .p-img2{
+        margin-top: 17px;
+    }
+    
     
  }
 
@@ -619,6 +756,6 @@
     }
 
     .p-img2{
-        margin-top: 25px;
+        margin-top: 20px;
     }
  }
