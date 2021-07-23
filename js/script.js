@@ -39,7 +39,8 @@ $(function(){
             $(".email-error").hide();
             $("#message").removeClass("error");
             $(".message-error").hide();
-            return false;
+            document.getElementById("input-text").focus();
+            return false
         }
 
         else if ($(".input-email").val() === ""){
@@ -49,6 +50,7 @@ $(function(){
             $(".name-error").hide();
             $("#message").removeClass("error");
             $(".message-error").hide();
+            document.getElementById("input-email").focus();
             return false;
         }
 
@@ -59,6 +61,8 @@ $(function(){
             $(".email-error").hide();
             $(".input-text").removeClass("error");
             $(".name-error").hide();
+            document.getElementById("message").focus();
+            return false;
         }
 
         else {
@@ -68,7 +72,7 @@ $(function(){
             $(".email-error").hide();
             $("#message").removeClass("error");
             $(".message-error").hide();
-            alert(`Hello ${inputText}!Your message has been sent`)
+            alert(`Hello ${inputText}!Your message has been sent`);
         }
 
 

@@ -220,6 +220,7 @@ input{
     border: 1px solid white;
     color: white;
     font-family: 'Crimson Text',serif;
+    letter-spacing: .025em;
 }
 
 input:focus{
@@ -261,7 +262,7 @@ input::placeholder{
 }
 
 #button:hover{
-    background-color: black;
+    background-color: red;
     border: 1px solid transparent;
     border-radius: 6px;
 }
