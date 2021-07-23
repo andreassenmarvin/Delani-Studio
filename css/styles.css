@@ -266,6 +266,11 @@ input::placeholder{
     padding: 15px;
 }
 
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 
