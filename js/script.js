@@ -88,12 +88,75 @@ $(function(){
          $(".bailey-show").attr("id", "bailey-div");
          $(".bailey-img").addClass("bailey-filter");
     })
-
     $(".girraffe").mouseleave(function(){
         $("#bailey-div").removeAttr("bailey-div");
         $("#bailey-div").addClass("bailey-show");
         $(".bailey-img").removeClass("bailey-filter");
    })
+
+
+   $(".img1").hover(function(){
+       $(".img1-box").show();
+       $(".img-miw").addClass("img-filter");
+   })
+   $(".img1").mouseleave(function(){
+       $(".img1-box").hide();
+       $(".img-miw").removeClass("img-filter");
+   })
+
+   $(".img2").hover(function(){
+       $(".img2-box").show();
+       $(".img-arch").addClass("img-filter");
+   })
+    $(".img2").mouseleave(function(){
+        $(".img2-box").hide();
+        $(".img-arch").removeClass("img-filter");
+    })
+
+    $(".img3").hover(function(){
+        $(".img3-box").show();
+        $(".img-ds").addClass("img-filter");
+    })
+     $(".img3").mouseleave(function(){
+         $(".img3-box").hide();
+         $(".img-ds").removeClass("img-filter");
+     })
+
+     $(".img4").hover(function(){
+        $(".img4-box").show();
+        $(".img-rr").addClass("img-filter");
+    })
+     $(".img4").mouseleave(function(){
+         $(".img4-box").hide();
+         $(".img-rr").removeClass("img-filter");
+     })
+
+     $(".img5").hover(function(){
+        $(".img5-box").show();
+        $(".img-taa").addClass("img-filter");
+    })
+     $(".img5").mouseleave(function(){
+         $(".img5-box").hide();
+         $(".img-taa").removeClass("img-filter");
+     })
+
+     $(".img6").hover(function(){
+        $(".img6-box").show();
+        $(".img-lp").addClass("img-filter");
+    })
+     $(".img6").mouseleave(function(){
+         $(".img6-box").hide();
+         $(".img-lp").removeClass("img-filter");
+     })
+
+     $(".img7").hover(function(){
+        $(".img7-box").show();
+        $(".img-andrea").addClass("img-filter");
+    })
+     $(".img7").mouseleave(function(){
+         $(".img7-box").hide();
+         $(".img-andrea").removeClass("img-filter");
+     })
     
-})
+ })
 

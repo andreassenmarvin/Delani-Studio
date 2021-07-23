@@ -178,6 +178,17 @@
     text-transform: uppercase;
     margin-left: 35px;
     margin-top: 32px;
+    cursor: pointer;
+    display: none;
+}
+
+.img-miw{
+    transition: all ease-in-out .6s;
+}
+
+
+.img-filter{
+    filter: brightness(20%);
 }
 
 .img2-box{
@@ -193,7 +204,18 @@
     text-transform: uppercase;
     margin-left: 35px;
     margin-top: 32px;
+    cursor: pointer;
 }
+
+#img2-box{
+    display: none;
+}
+
+.img-arch{
+    transition: all ease-in-out .6s;
+}
+
+
 
 .img3-box{
     position: absolute;
@@ -208,7 +230,13 @@
     text-transform: uppercase;
     margin-left: 35px;
     margin-top: 32px;
+    cursor: pointer;
 }
+
+.img-ds{
+    transition: all ease-in-out .6s;
+}
+
 
 .img4-box{
     position: absolute;
@@ -223,6 +251,11 @@
     text-transform: uppercase;
     margin-left: 35px;
     margin-top: 32px;
+    cursor: pointer;
+}
+
+.img-rr{
+    transition: all ease-in-out .6s;
 }
 
 .img5-box{
@@ -238,7 +271,13 @@
     text-transform: uppercase;
     margin-left: 35px;
     margin-top: 32px;
+    cursor: pointer;
 }
+
+.img-taa{
+    transition: all ease-in-out .6s;
+}
+
 
 .img6-box{
     position: absolute;
@@ -253,7 +292,13 @@
     text-transform: uppercase;
     margin-left: 35px;
     margin-top: 32px;
+    cursor: pointer;
 }
+
+.img-lp{
+    transition: all ease-in-out .6s;
+}
+
 
 .img7-box{
     position: absolute;
@@ -267,12 +312,17 @@
     text-shadow: 1px 0px 1px white;
     text-transform: uppercase;
     margin-left: 35px;
-    margin-top: 32px;
+    margin-top: 32px;    cursor: pointer;
 }
+
+.img-andrea{
+    transition: all ease-in-out .6s;
+}
+
 
 .bailey-img{
     position: relative;
-    transition: all ease-in-out .4s;
+    transition: all ease-in-out .6s;
 }
 
 #bailey-div{
@@ -287,6 +337,7 @@
     border: 3px solid white;
     font-weight: bold;
     text-shadow: 1px 0px 1px white;
+    cursor: pointer;
 }
 
 .bailey-show{
@@ -1231,7 +1282,7 @@ input::placeholder{
    }
 
     #img7-text{
-        font-size: 15px;
+        font-size: 14px;
     }
     
     #bailey-div{
