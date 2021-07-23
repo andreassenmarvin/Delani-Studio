@@ -75,14 +75,14 @@ $(function(){
             $(".email-error").hide();
             $("#message").removeClass("error");
             $(".message-error").hide();
-            alert(`Hello ${inputText}!Your message has been sent`);
+            alert(`Hello ${inputText}! Your message has been sent.`);
             $(".form form").trigger("reset");
         }
 
         event.preventDefault();
     })
 
-
+    // Hover effect on projects
     $(".girraffe").hover(function(){
          $(".bailey-show").removeClass("bailey-show");
          $(".bailey-show").attr("id", "bailey-div");
