@@ -165,9 +165,114 @@
 }
 
 
+.img1-box{
+    position: absolute;
+    color: white;
+    width: 210px;
+    height: 170px; 
+    padding: 10px;
+    z-index: 3;
+    border: 3px solid white;
+    font-weight: bold;
+    text-shadow: 1px 0px 1px white;
+    text-transform: uppercase;
+    margin-left: 35px;
+    margin-top: 32px;
+}
+
+.img2-box{
+    position: absolute;
+    color: white;
+    width: 210px;
+    height: 170px; 
+    padding: 10px;
+    z-index: 3;
+    border: 3px solid white;
+    font-weight: bold;
+    text-shadow: 1px 0px 1px white;
+    text-transform: uppercase;
+    margin-left: 35px;
+    margin-top: 32px;
+}
+
+.img3-box{
+    position: absolute;
+    color: white;
+    width: 210px;
+    height: 170px; 
+    padding: 10px;
+    z-index: 3;
+    border: 3px solid white;
+    font-weight: bold;
+    text-shadow: 1px 0px 1px white;
+    text-transform: uppercase;
+    margin-left: 35px;
+    margin-top: 32px;
+}
+
+.img4-box{
+    position: absolute;
+    color: white;
+    width: 210px;
+    height: 170px; 
+    padding: 10px;
+    z-index: 3;
+    border: 3px solid white;
+    font-weight: bold;
+    text-shadow: 1px 0px 1px white;
+    text-transform: uppercase;
+    margin-left: 35px;
+    margin-top: 32px;
+}
+
+.img5-box{
+    position: absolute;
+    color: white;
+    width: 210px;
+    height: 170px; 
+    padding: 10px;
+    z-index: 3;
+    border: 3px solid white;
+    font-weight: bold;
+    text-shadow: 1px 0px 1px white;
+    text-transform: uppercase;
+    margin-left: 35px;
+    margin-top: 32px;
+}
+
+.img6-box{
+    position: absolute;
+    color: white;
+    width: 210px;
+    height: 170px; 
+    padding: 10px;
+    z-index: 3;
+    border: 3px solid white;
+    font-weight: bold;
+    text-shadow: 1px 0px 1px white;
+    text-transform: uppercase;
+    margin-left: 35px;
+    margin-top: 32px;
+}
+
+.img7-box{
+    position: absolute;
+    color: white;
+    width: 210px;
+    height: 170px; 
+    padding: 10px;
+    z-index: 3;
+    border: 3px solid white;
+    font-weight: bold;
+    text-shadow: 1px 0px 1px white;
+    text-transform: uppercase;
+    margin-left: 35px;
+    margin-top: 32px;
+}
+
 .bailey-img{
     position: relative;
-    filter: brightness(20%);
+    transition: all ease-in-out .4s;
 }
 
 #bailey-div{
@@ -183,6 +288,26 @@
     font-weight: bold;
     text-shadow: 1px 0px 1px white;
 }
+
+.bailey-show{
+    position: absolute;
+    color: white;
+    width: 210px;
+    height: 170px;
+    margin-left: -245px;
+    margin-top: 32px;
+    padding: 10px;
+    z-index: 3;
+    border: 3px solid white;
+    font-weight: bold;
+    text-shadow: 1px 0px 1px white;
+    display: none;
+}
+
+.bailey-filter{
+    filter: brightness(20%);
+}
+
 
 .contactUs{
     margin-top: 70px;
@@ -433,6 +558,91 @@ input::placeholder{
         padding: 2px;
     }
     
+
+    .img1-box{
+        width: 70px;
+        height: 63px;
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: 2px;
+   }
+
+    #img1-text{
+        font-size: 9px;
+    }
+
+    .img2-box{
+        width: 70px;
+        height: 63px;
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: 2px;
+   }
+
+    #img2-text{
+        font-size: 9px;
+    }
+
+    .img3-box{
+        width: 70px;
+        height: 63px;
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: 2px;
+   }
+
+    #img3-text{
+        font-size: 9px;
+    }
+
+    .img4-box{
+        width: 70px;
+        height: 63px;
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: 2px;
+   }
+
+    #img4-text{
+        font-size: 9px;
+    }
+
+    .img5-box{
+        width: 70px;
+        height: 63px;
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: 2px;
+   }
+
+    #img5-text{
+        font-size: 9px;
+    }
+
+    .img6-box{
+        width: 70px;
+        height: 63px;
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: 2px;
+   }
+
+    #img6-text{
+        font-size: 9px;
+    }
+
+    .img7-box{
+        width: 70px;
+        height: 63px;
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: 2px;
+   }
+
+    #img7-text{
+        font-size: 9px;
+    }
+
     
     #bailey-div{
         width: 70px;
@@ -638,7 +848,90 @@ input::placeholder{
         width: 130px;
         padding: 4px;
     }
-    
+
+
+    .img1-box{
+        width: 90px;
+        height: 80px;
+        margin-left: 20px;
+        margin-top: 13px;
+        padding: 5px;
+   }
+
+    #img1-text{
+        font-size: 11px;
+    }
+
+    .img2-box{
+        width: 90px;
+        height: 80px;
+        margin-left: 20px;
+        margin-top: 13px;
+        padding: 5px;
+   }
+
+    #img2-text{
+        font-size: 11px;
+    }
+
+    .img3-box{
+        width: 90px;
+        height: 80px;
+        margin-left: 20px;
+        margin-top: 13px;
+        padding: 5px;
+   }
+
+    #img3-text{
+        font-size: 11px;
+    }
+
+    .img4-box{
+        width: 90px;
+        height: 80px;
+        margin-left: 20px;
+        margin-top: 13px;
+        padding: 5px;
+   }
+
+    #img4-text{
+        font-size: 11px;
+    }
+
+    .img5-box{
+        width: 90px;
+        height: 80px;
+        margin-left: 20px;
+        margin-top: 13px;
+        padding: 5px;
+   }
+
+    #img5-text{
+        font-size: 11px;
+    }
+
+    .img6-box{
+        width: 90px;
+        height: 80px;
+        margin-left: 20px;
+        margin-top: 13px;
+        padding: 5px;
+   }
+
+    #img6-text{
+        font-size: 11px;
+    }
+    .img7-box{
+        width: 90px;
+        height: 80px;
+        margin-left: 20px;
+        margin-top: 13px;
+        padding: 5px;
+   }
+
+    #img7-text{
+        font-size: 11px;
+    }
     
     #bailey-div{
         width: 90px;
@@ -857,7 +1150,89 @@ input::placeholder{
         width: 170px;
         padding: 7px;
     }
-    
+
+    .img1-box{
+        width: 120px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 10px;
+   }
+
+    #img1-text{
+        font-size: 15px;
+    }
+
+    .img2-box{
+        width: 120px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 10px;
+   }
+
+    #img2-text{
+        font-size: 15px;
+    }
+
+    .img3-box{
+        width: 120px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 10px;
+   }
+
+    #img3-text{
+        font-size: 15px;
+    }
+
+    .img4-box{
+        width: 120px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 10px;
+   }
+
+    #img4-text{
+        font-size: 15px;
+    }
+
+    .img5-box{
+        width: 120px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 10px;
+   }
+
+    #img5-text{
+        font-size: 15px;
+    }
+
+    .img6-box{
+        width: 120px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 10px;
+   }
+
+    #img6-text{
+        font-size: 15px;
+    }
+    .img7-box{
+        width: 120px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 10px;
+   }
+
+    #img7-text{
+        font-size: 15px;
+    }
     
     #bailey-div{
         width: 120px;
@@ -1048,7 +1423,92 @@ input::placeholder{
         padding: 7px;
     }
     
+
+    .img1-box{
+        width: 190px;
+        height: 160px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 10px;
+   }
+
+    #img1-text{
+        font-size: 22px;
+    }
+
+    .img2-box{
+        width: 190px;
+        height: 160px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+   #img2-text{
+    font-size: 22px;
+    }
+
+    .img3-box{
+        width: 190px;
+        height: 160px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+   #img3-text{
+    font-size: 22px;
+    }
+
+    .img4-box{
+        width: 190px;
+        height: 160px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+   #img4-text{
+    font-size: 22px;
+    }
+
+    .img5-box{
+        width: 190px;
+        height: 160px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    #img5-text{
+    font-size: 22px;
+    }
+
+    .img6-box{
+        width: 190px;
+        height: 160px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+   #img6-text{
+    font-size: 22px;
+    }
+
+    .img7-box{
+        width: 190px;
+        height: 160px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+   #img7-text{
+    font-size: 22px;
+    }
     
+
     #bailey-div{
         width: 190px;
         height: 160px;

@@ -79,9 +79,21 @@ $(function(){
             $(".form form").trigger("reset");
         }
 
-
         event.preventDefault();
     })
+
+
+    $(".girraffe").hover(function(){
+         $(".bailey-show").removeClass("bailey-show");
+         $(".bailey-show").attr("id", "bailey-div");
+         $(".bailey-img").addClass("bailey-filter");
+    })
+
+    $(".girraffe").mouseleave(function(){
+        $("#bailey-div").removeAttr("bailey-div");
+        $("#bailey-div").addClass("bailey-show");
+        $(".bailey-img").removeClass("bailey-filter");
+   })
     
 })
 
