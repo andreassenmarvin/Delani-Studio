@@ -218,7 +218,15 @@
 input{
     background-color: transparent;
     border: 1px solid white;
+    color: white;
+    font-family: 'Crimson Text',serif;
 }
+
+input:focus{
+    outline: none;
+    background: transparent;
+}
+
 
 input::placeholder{
     color: white;
@@ -227,12 +235,14 @@ input::placeholder{
     
 .text{
     width: 450px;
+    height: 35px;
     margin: 25px;
+    padding: 10px;
 }
 
 #message{
     width: 930px;
-    padding: 5px;
+    padding: 10px;
     padding-bottom: 200px;
     margin-left: 50px;
     margin-bottom: 30px;
@@ -271,6 +281,35 @@ input::placeholder{
     margin-top: 20px;
 }
 
+.error{
+    border: 1px solid red;
+}
+
+.name-error{
+    position: absolute;
+    color: #ff4444;
+    margin-left: 200px;
+    display: none;
+}
+
+.email-error{
+     position: absolute;
+     color: #ff4444;
+     margin-left: 670px;
+     display: none;
+}
+
+.message-error{
+    position: absolute;
+    color: #ff4444;
+    margin-left: 60px;
+    margin-top: -24px;
+    display: none;
+}
+
+.text-errors{
+    display: flex;
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 
@@ -448,6 +487,35 @@ input::placeholder{
         font-size: 8px;
     }
 
+    .social-icons{
+        margin-top: 9px;
+    }
+    
+    .icon{
+        padding: 8px;
+        width: 40px;
+    }
+    
+    .copyright{
+        margin-top: 1px;
+        font-size: 11px;
+    }
+
+    .name-error{
+        margin-left: 65px;
+        font-size: 9px;
+    }
+    
+    .email-error{
+         margin-left: 280px;
+         font-size: 9px;
+    }
+
+    .message-error{
+        margin-top: -13px;
+        margin-left: 16px;
+        font-size: 9px;
+    }
 
  }
 
@@ -622,6 +690,38 @@ input::placeholder{
         width: 120px;
         height: 40px;
         font-size: 13px;
+    }
+
+    .social-icons{
+        margin-top: 13px;
+    }
+    
+    .icon{
+        padding: 8px;
+        width: 50px;
+    }
+    
+    .copyright{
+        margin-top: 6px;
+        font-size: 13px;
+    }
+
+    .name-error{
+        margin-left: 75px;
+        margin-top: -7px;
+        font-size: 11px;
+    }
+    
+    .email-error{
+         margin-left: 330px;
+         font-size: 11px;
+         margin-top: -7px;
+    }
+
+    .message-error{
+        margin-top: -16px;
+        margin-left: 16px;
+        font-size: 11px;
     }
 
  }
@@ -810,6 +910,38 @@ input::placeholder{
         height: 40px;
         font-size: 13px;
     }
+
+    .social-icons{
+        margin-top: 17px;
+    }
+    
+    .icon{
+        padding: 10px;
+        width: 60px;
+    }
+    
+    .copyright{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .name-error{
+        margin-left: 110px;
+        margin-top: -7px;
+        font-size: 13px;
+    }
+    
+    .email-error{
+         margin-left: 420px;
+         font-size: 13px;
+         margin-top: -7px;
+    }
+
+    .message-error{
+        margin-top: -20px;
+        margin-left: 14px;
+        font-size: 13px;
+    }
     
  }
 
@@ -969,6 +1101,35 @@ input::placeholder{
         height: 50px;
         font-size: 15px;
     }
+
+    .social-icons{
+        margin-top: 25px;
+    }
+    
+    .icon{
+        padding: 12px;
+        width: 70px;
+    }
+    
+    .copyright{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .name-error{
+        margin-left: 160px;
+        font-size: 15px;
+    }
+    
+    .email-error{
+         margin-left: 600px;
+         font-size: 15px;
+    }
+
+    .message-error{
+        font-size: 15px;
+    }
+    
  }
 
 /* Extra large devices (large desktops, 1200px and up) */

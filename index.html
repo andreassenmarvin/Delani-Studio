@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
@@ -121,9 +122,14 @@
                 <h2 id="contact-title">contact us</h2>
                 <div class="form">
                     <div class="form-texts">
-                <form>
-                    <input type="text" placeholder="Name" class="input-text text">
-                    <input type="email" placeholder="Email" class="input-email text">
+                <form autocomplete="off">
+                    <div class="text-errors">
+                    <p class="name-error">Enter a valid name</p>
+                    <p class="email-error">Enter a valid email</p>
+                    </div>
+                    <input type="text" placeholder="Name" class="input-text text" id="input-text" autocomplete="">
+                    <p class="message-error">Enter a valid message</p>
+                    <input type="text" placeholder="Email" class="input-email text" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}">
                 </div>
                     <input type="text" placeholder="Your message here..." id="message">
                     <button type="submit" class="btn" id="button">Send Message</button>
