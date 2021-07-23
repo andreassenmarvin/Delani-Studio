@@ -256,6 +256,16 @@ input::placeholder{
     border-radius: 6px;
 }
 
+.social-icons{
+    margin-top: 35px;
+    display: flex;
+    justify-content:center;
+}
+
+.icon{
+    padding: 15px;
+}
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 
