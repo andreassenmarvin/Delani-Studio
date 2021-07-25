@@ -449,6 +449,18 @@ input::placeholder{
     background-color: red;
     border: 1px solid transparent;
     border-radius: 6px;
+    animation: colors .6s linear;
+    transition: all ease .5s;
+}
+
+@keyframes colors{
+    50% {
+        background: linear-gradient(70deg, red, transparent);
+    }
+
+    100%{
+        background: linear-gradient(70deg, transparent, red);
+    }
 }
 
 .social-icons{
