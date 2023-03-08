@@ -1,5 +1,4 @@
 # DELANI STUDIO
-#### This is a software development company website which lists all the services it renders in details. 
 #### By **Marvin Macharia**
 ## Description
 ![Website image](/assets/README/md1.png)
